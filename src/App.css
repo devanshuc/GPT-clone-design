@@ -66,13 +66,13 @@ a {
 	margin: 4rem 6rem;
 }
 
-.scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+.scale_up_center {
+	-webkit-animation: scale_up_center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
 		both;
-	animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+	animation: scale_up_center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
-@-webkit-keyframes scale-up-center {
+@-webkit-keyframes scale_up_center {
 	0% {
 		-webkit-transform: scale(0.5);
 		transform: scale(0.5);
@@ -83,7 +83,7 @@ a {
 	}
 }
 
-@keyframes scale-up-center {
+@keyframes scale_up_center {
 	0% {
 		-webkit-transform: scale(0.5);
 		transform: scale(0.5);

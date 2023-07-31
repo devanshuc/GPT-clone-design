@@ -1,21 +1,22 @@
-import { useState } from "react";
 import "./App.css";
-import Article from "./components";
-import Navbar from "./components";
-import Brand from "./components";
-import CTA from "./components";
-import Feature from "./components";
+import { Blog, Features, Footer, Gpt, Header, Possibility } from "./containers";
+import { Brand, CTA, Navbar } from "./components";
 
 function App() {
 	return (
-		<>
-			<h1>Hello World</h1>
-			<Article />
-			<Navbar />
+		<div className="App">
+			<div className="gradient__bg">
+				<Navbar />
+				<Header />
+			</div>
 			<Brand />
+			<Gpt />
+			<Features />
+			<Possibility />
 			<CTA />
-			<Feature />
-		</>
+			<Blog />
+			<Footer />
+		</div>
 	);
 }
 

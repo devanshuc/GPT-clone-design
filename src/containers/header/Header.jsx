@@ -4,7 +4,7 @@ import ai from "../../assets/ai.png";
 
 const Header = () => {
 	return (
-		<div className={`${classes.header} ${classes.section_padding}`} id="home">
+		<div className={`${classes.header} ${classes.section__padding}`} id="home">
 			<div className={classes.header_content}>
 				<h1 className="gradient__text">
 					Let’s Build Something amazing with GPT-3 OpenAI
@@ -25,9 +25,9 @@ const Header = () => {
 					<p>1,600 people requested access a visit in last 24 hours</p>
 				</div>
 
-				{/* <div className={classes.ai_image}>
+				<div className={classes.ai_image}>
 					<img src={ai} alt="AI Image" />
-				</div> */}
+				</div>
 			</div>
 		</div>
 	);

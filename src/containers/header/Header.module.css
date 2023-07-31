@@ -1,0 +1,48 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header_content {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+}
+
+.input input {
+	width: 456px;
+	height: 73px;
+	border-radius: 5px 0px 0px 5px;
+	background: #052d56;
+	color: #3d6184;
+	font-family: Manrope;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border: none;
+}
+
+.input button {
+	width: 174px;
+	height: 73px;
+	border-radius: 5px 0px 0px 5px;
+	background: #ff4820;
+}
+
+.people {
+	display: flex;
+	justify-content: start;
+}
+
+.people img {
+	width: 181.786px;
+	height: 38px;
+}

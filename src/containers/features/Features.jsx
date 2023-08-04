@@ -3,17 +3,15 @@ import { Feature } from "../../components";
 
 const Features = () => {
 	return (
-		<div>
-			<div className={`${classes.features} ${classes.section__padding}`}>
-				<div className={classes.features_heading}>
-					<h1 className="gradient__text">
-						The Future is Now and You Just Need to Realize It. Step into Future
-						Today. & Make it Happen.
-					</h1>
-					<p>Request Early Access to Get Started</p>
-				</div>
+		<div className={`${classes.section__margin} ${classes.features}`}>
+			<div className={`${classes.features_content}`}>
+				<h1 className="gradient__text">
+					The Future is Now and You Just Need to Realize It. Step into Future
+					Today. & Make it Happen.
+				</h1>
+				<p>Request Early Access to Get Started</p>
 			</div>
-			<div>
+			<div className={classes.info}>
 				<Feature
 					title="Improving end distrusts instantly"
 					text="From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."

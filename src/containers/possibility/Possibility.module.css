@@ -1,0 +1,61 @@
+.possibility {
+	display: flex;
+	flex-direction: row;
+}
+
+.section__margin {
+	margin: 4rem 6rem;
+}
+
+.possibility_logo img {
+	width: 474.855px;
+	height: 542.691px;
+}
+
+.possibility_logo {
+	flex: 1;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: -2rem;
+}
+
+.div1 p {
+	color: #71e5ff;
+	font-family: var(--font-family);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 2rem;
+}
+
+.div2 h1 {
+	font-family: var(--font-family);
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 45px;
+	width: 426px;
+}
+
+.div2 p {
+	margin-top: 2rem;
+	color: #81afdd;
+	font-family: var(--font-family);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	width: 479px;
+}
+
+.div3 p {
+	color: #ff8a71;
+	font-family: Manrope;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+	margin-top: 2rem;
+}

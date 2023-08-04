@@ -3,7 +3,7 @@ import logo from "../../assets/possibility.png";
 
 const Possibility = () => {
 	return (
-		<div className={`${classes.possibility} ${classes.section__margin}`}>
+		<div className={`${classes.possibility} ${classes.}`}>
 			<div className={classes.possibility_logo}>
 				<img src={logo} />
 			</div>

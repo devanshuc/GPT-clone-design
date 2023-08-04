@@ -57,3 +57,10 @@
 		margin: 0 0 2rem 0;
 	}
 }
+
+@media screen and (max-width: 550px) {
+	.features_content h1 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+}

@@ -3,12 +3,15 @@ import logo from "../../assets/possibility.png";
 
 const Possibility = () => {
 	return (
-		<div className={`${classes.possibility} ${classes.section__padding}`}>
+		<div
+			className={`${classes.possibility} ${classes.section__padding}`}
+			id="possibilty"
+		>
 			<div className={classes.possibility_image}>
 				<img src={logo} />
 			</div>
-			<div className={classes.container}>
-				<p>Request Early Access to Get Started</p>
+			<div className={classes.content}>
+				<h4>Request Early Access to Get Started</h4>
 
 				<h1 className="gradient__text">
 					The possibilities are beyond your imagination
@@ -20,7 +23,7 @@ const Possibility = () => {
 					asked of.
 				</p>
 
-				<p>Request Early Access to Get Started</p>
+				<h4>Request Early Access to Get Started</h4>
 			</div>
 		</div>
 	);

@@ -3,8 +3,8 @@
 	flex-direction: row;
 }
 
-.section__margin {
-	margin: 4rem 6rem;
+.section__padding {
+	padding: 4rem 6rem;
 }
 
 .possibility_logo img {

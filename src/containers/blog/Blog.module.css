@@ -1,0 +1,8 @@
+.section__padding {
+	padding: 4rem 6rem;
+}
+
+.blog.container {
+	display: flex;
+	flex-direction: row;
+}

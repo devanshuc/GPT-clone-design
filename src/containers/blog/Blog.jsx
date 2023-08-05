@@ -15,14 +15,14 @@ const Blog = () => {
 				</h1>
 			</div>
 			<div className={classes.blog_container}>
-				<div>
+				<div className={classes.blog_container_A}>
 					<Article image={Blog1Img} />
 				</div>
-				<div>
-					{/* <Article image={Blog2Img} />
+				<div className={classes.blog_container_B}>
+					<Article image={Blog2Img} />
 					<Article image={Blog3Img} />
 					<Article image={Blog4Img} />
-					<Article image={Blog5Img} /> */}
+					<Article image={Blog5Img} />
 				</div>
 			</div>
 		</div>

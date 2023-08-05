@@ -2,7 +2,38 @@
 	padding: 4rem 6rem;
 }
 
-.blog.container {
+.blog {
+	display: flex;
+	flex-direction: column;
+}
+
+.blog_heading {
+	width: 100%;
+	text-align: left;
+
+	margin-bottom: 5rem;
+}
+
+.blog_heading h1 {
+	font-family: var(--font-family);
+	font-size: 62px;
+	font-weight: 800;
+	line-height: 75px; /* 120.968% */
+}
+
+.blog_container {
 	display: flex;
 	flex-direction: row;
+}
+
+.blog_container_A {
+	flex: 0.75;
+	margin-right: 2rem;
+}
+
+.blog_container_B {
+	flex: 1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
 }

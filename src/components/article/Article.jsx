@@ -4,7 +4,7 @@ import classes from "./Article.module.css";
 const Article = ({ image }) => {
 	return (
 		<div className={classes.article}>
-			<div className={classes.image}>
+			<div className={classes.article_image}>
 				<img src={image} alt="blog_image" />
 			</div>
 			<div className={classes.article_content}>

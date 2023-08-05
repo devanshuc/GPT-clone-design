@@ -7,14 +7,23 @@
 	background: var(--color-footer);
 }
 
-.image {
+.article_image {
 	width: 100%;
 	height: 100%;
 	background: var(--color-bg);
 }
 
-.image img {
+.article_image img {
 	width: 100%;
+	height: 100%;
+}
+
+.article_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	padding: 1rem 1.5rem;
 	height: 100%;
 }
 
@@ -30,7 +39,7 @@
 	color: #fff;
 	font-family: var(--font-family);
 	font-size: 25.11px;
-	font-weight: 800;
+	font-weight: bold;
 	line-height: 30.287px;
 	margin-bottom: 5rem;
 }

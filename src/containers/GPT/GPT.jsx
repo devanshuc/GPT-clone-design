@@ -14,7 +14,7 @@ const Gpt = () => {
 				<h1 className="gradient__text">
 					The possibilities are beyond your imagination
 				</h1>
-				<p>Explore The Library</p>
+				<a href="https://chat.openai.com/auth/login">Try Now</a>
 			</div>
 			<div className={classes.container}>
 				<Feature

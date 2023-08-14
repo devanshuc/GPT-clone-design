@@ -1,5 +1,5 @@
 import "./App.css";
-import { Blog, Features, Footer, Gpt, Header, Possibility } from "./containers";
+import { Blog, Features, Footer, Header, Possibility } from "./containers";
 import { Brand, CTA, Navbar } from "./components";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 				<Header />
 			</div>
 			<Brand />
-			<Gpt />
+			{/* <Gpt /> */}
 			<Features />
 			<Possibility />
 			<CTA />

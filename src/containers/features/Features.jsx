@@ -3,7 +3,10 @@ import { Feature } from "../../components";
 
 const Features = () => {
 	return (
-		<div className={`${classes.section__padding} ${classes.features}`}>
+		<div
+			className={`${classes.section__padding} ${classes.features}`}
+			id="features"
+		>
 			<div className={`${classes.features_content}`}>
 				<h1 className="gradient__text">
 					The Future is Now and You Just Need to Realize It. Step into Future

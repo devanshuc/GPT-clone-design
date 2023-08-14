@@ -11,14 +11,16 @@ const Footer = () => {
 			</div>
 
 			<div className={classes.footer_btn}>
-				<p>Request Early Access</p>
+				<a href="https://chat.openai.com/auth/login">
+					Click Here to Get Started.
+				</a>
 			</div>
 
 			<div className={classes.footer_links}>
 				<div className={classes.footer_links_logo}>
 					<img src={gptLogo} alt="gpt3_logo" />
 					<p>
-						Made with Love from India 🇮🇳
+						Made with ❤️ from India 🇮🇳
 						<br />
 						by Devanshu Chicholikar.
 					</p>

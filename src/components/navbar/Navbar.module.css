@@ -66,6 +66,9 @@
 	position: relative;
 }
 
+.menu a {
+}
+
 .menu svg {
 	cursor: pointer;
 }

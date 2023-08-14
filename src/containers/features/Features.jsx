@@ -9,24 +9,24 @@ const Features = () => {
 					The Future is Now and You Just Need to Realize It. Step into Future
 					Today. & Make it Happen.
 				</h1>
-				<p>Request Early Access to Get Started</p>
+				<a href="https://chat.openai.com/auth/login">Try Now!</a>
 			</div>
 			<div className={classes.container}>
 				<Feature
-					title="Improving end distrusts instantly"
-					text="From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."
+					title="Instant Creative Writing Buddy"
+					text="Even if you're not a professional writer, ChatGPT can help you come up with creative stories, poems, or even write heartfelt messages. It's like having a friendly muse that inspires you whenever you need it."
 				/>
 				<Feature
-					title="Become the tended active"
-					text="Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to."
+					title="Virtual Study Partner"
+					text="Whether you're a student or just curious, ChatGPT can explain complex topics in simple terms. It's like having a knowledgeable friend who can help you understand things you've always wondered about."
 				/>
 				<Feature
-					title="Message or am nothing"
-					text="Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address."
+					title="Easy Decision Maker"
+					text="When you're unsure about a choice, ChatGPT can give you advice and help you weigh the pros and cons. It's like having a wise friend who can guide you through tough decisions."
 				/>
 				<Feature
-					title="Really boy law county"
-					text="Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush."
+					title="Fun Conversational Companion"
+					text="Sometimes you just want to chat or have a fun debate. ChatGPT can engage in lighthearted conversations, tell jokes, and discuss interesting topics. It's like having an entertaining buddy to chat with whenever you're bored."
 				/>
 			</div>
 		</div>

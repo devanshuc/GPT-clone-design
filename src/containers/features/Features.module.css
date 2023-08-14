@@ -31,7 +31,8 @@
 	line-height: 45px;
 }
 
-.features_content p {
+.features_content p,
+a {
 	margin-top: 2rem;
 	color: #ff8a71;
 	font-family: var(--font-family);

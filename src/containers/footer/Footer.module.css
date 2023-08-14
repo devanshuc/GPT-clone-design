@@ -96,7 +96,8 @@
 	margin-bottom: 0.9rem;
 }
 
-.footer_links_div p {
+.footer_links_div p,
+a {
 	font-size: 12px;
 	line-height: 15px;
 	font-family: var(--font-family);

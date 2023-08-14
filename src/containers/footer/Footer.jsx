@@ -18,15 +18,18 @@ const Footer = () => {
 				<div className={classes.footer_links_logo}>
 					<img src={gptLogo} alt="gpt3_logo" />
 					<p>
-						Made with Love by Devanshu Chicholikar, <br /> All Rights Reserved
+						Made with Love from from India 🇮🇳
+						<br />
+						by Devanshu Chicholikar.
 					</p>
 				</div>
 				<div className={classes.footer_links_div}>
 					<h4>Links</h4>
-					<p>Overons</p>
-					<p>Social Media</p>
-					<p>Counters</p>
-					<p>Contact</p>
+					<a href="https://github.com/devanshuc">Github</a>
+					<a href="https://twitter.com/Kira_Icarusss">Twitter</a>
+					<a href="https://www.linkedin.com/in/devanshuchicholikar/">
+						LinkedIn
+					</a>
 				</div>
 				<div className={classes.footer_links_div}>
 					<h4>Company</h4>
@@ -36,14 +39,14 @@ const Footer = () => {
 				</div>
 				<div className={classes.footer_links_div}>
 					<h4>Get in touch</h4>
-					<p>Crechterwoord K12 182 DK Alknjkcb</p>
-					<p>085-132567</p>
-					<p>info@payme.net</p>
+					<p>Devanshu Chicholikar</p>
+					<p>Tech Enthusiast.</p>
+					<p>devanshuchi9@gmail.com</p>
 				</div>
 			</div>
 
 			<div className={classes.footer_copyright}>
-				<p>@2021 GPT-3. All rights reserved.</p>
+				<p>@2023 GPT-3.5</p>
 			</div>
 		</div>
 	);

@@ -11,7 +11,7 @@ const Possibility = () => {
 				<img src={logo} />
 			</div>
 			<div className={classes.content}>
-				<h4>Request Early Access to Get Started</h4>
+				<a href="https://chat.openai.com/auth/login">Get Started Today</a>
 
 				<h1 className="gradient__text">
 					The possibilities are beyond your imagination
@@ -23,7 +23,7 @@ const Possibility = () => {
 					asked of.
 				</p>
 
-				<h4>Request Early Access to Get Started</h4>
+				<a href="https://chat.openai.com/auth/login">Get Started Today</a>
 			</div>
 		</div>
 	);

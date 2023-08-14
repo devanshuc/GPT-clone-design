@@ -60,6 +60,10 @@
 	min-width: 150px;
 }
 
+.cta_button button:hover {
+	background: #031;
+}
+
 @media screen and (max-width: 650px) {
 	.cta {
 		flex-direction: column;

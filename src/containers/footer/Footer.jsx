@@ -18,7 +18,7 @@ const Footer = () => {
 				<div className={classes.footer_links_logo}>
 					<img src={gptLogo} alt="gpt3_logo" />
 					<p>
-						Made with Love from from India 🇮🇳
+						Made with Love from India 🇮🇳
 						<br />
 						by Devanshu Chicholikar.
 					</p>
